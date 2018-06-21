@@ -339,6 +339,8 @@ void MarkovProcessAnalytic::stationnaryPolicy(){
 
 	//this->_nbrIterationForMarkoProcess = this->_inputData->getTImeHorizon()*this->_inputData->getNbrStatePerCluster()
 //	cout<<"début du processus de Markov"<<endl;
+
+	//Le nombre 600 veux dire nombre d'état (5) * nombre de pas de temps (120) = 600
 	for(unsigned int i = 0; i < 600; i++){
 //		cout<<"############################################"<<endl;
 //		cout<<"------------Iteration --------------- : "<<i+1<<"--------"<<endl;
