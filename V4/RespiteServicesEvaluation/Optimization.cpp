@@ -196,9 +196,11 @@ void Optimization::optimize(){
 	unsigned int i = 0;
 
 while(i < 50){
+
 	cout<<"-----------------------------------------------------------------------------------------------------------------"<<endl;
 	this->localSearch();
     if(currentEvaluation < this->_evaluation){
+    	//je défire créer une perturbation dans la solution pour m'éxtraire de la solution locale !!!
     	cout<<"perturbation"<<endl;
     }
     else{
